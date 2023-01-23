@@ -7,11 +7,22 @@
     font-weight: 400;
 }
 
+.heading {
+    color: #414040;
+}
+
+.description {
+    color: #707070;
+}
+
 .banner {
     background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url(./images/Rectangle\ 4.png);
     background-size: cover;
     background-position: center;
     padding: 100px 0;
 
+}
 
+.criminial-law-card {
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
 }
