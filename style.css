@@ -26,3 +26,7 @@
 .criminial-law-card {
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
 }
+
+.carousel-image {
+    background: rgba(17, 17, 17, 0.8);
+}
