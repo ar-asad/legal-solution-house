@@ -1,10 +1,12 @@
-/* .btn-ma {
-    background-color: #B68C5A;
-    border: 2px solid red;
-} */
+/* Utilities style here */
 * {
     font-family: 'EB Garamond', serif;
     font-weight: 400;
+}
+
+.btn-main {
+    background-color: #B68C5A;
+
 }
 
 .heading {
@@ -13,6 +15,15 @@
 
 .description {
     color: #707070;
+}
+
+/* Banner section style here */
+.banner-heading {
+    color: #FFFFFF;
+}
+
+.banner-description {
+    color: #E7E7E7;
 }
 
 .banner {
@@ -27,6 +38,26 @@
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
 }
 
-.carousel-image {
-    background: rgba(17, 17, 17, 0.8);
+/* Footer style here */
+.footer {
+    background-color: #111111;
+}
+
+.footer-description {
+    color: #CFCFCF;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+/* All section to section gaping here */
+@media only screen and (min-width:768px) {
+
+    .header,
+    .leagal-practice,
+    .clients-review,
+    .answer-question {
+        margin-bottom: 100px;
+    }
 }
