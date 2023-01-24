@@ -60,4 +60,8 @@
     .answer-question {
         margin-bottom: 100px;
     }
+
+    .question-accor {
+        width: 50%;
+    }
 }
